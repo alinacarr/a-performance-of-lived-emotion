@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>A Performance of Lived Emotion</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main id="app">
+    <div id="video-wrap">
+      <video
+        id="video"
+        src="crying-video.mp4"
+        playsinline
+        preload="auto"
+      ></video>
+
+      <canvas id="canvas"></canvas>
+
+      <div id="grain"></div>
+      <div id="darkness"></div>
+      <div id="glitch-lines"></div>
+    </div>
+
+    <button id="hold-button">
+      hold to perform intimacy
+    </button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
